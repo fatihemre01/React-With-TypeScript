@@ -14,10 +14,16 @@ export interface PeopleInterface {
 const App = () => {
   const [people, setPeople] = useState<PeopleInterface["people"]>([
     {
-      name: "Deneme",
+      name: "Fatih",
       age: 18,
       url: "",
-      note: "Hi",
+      note: "He is an awesome programmer! :)",
+    },
+    {
+      name: "Mehmet",
+      age: 25,
+      url: "",
+      note: "He is a good programmer",
     },
   ]);
   return (
